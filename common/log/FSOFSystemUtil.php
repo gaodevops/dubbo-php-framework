@@ -27,8 +27,6 @@ class FSOFSystemUtil
 	{
 		if (!isset(FSOFSystemUtil::$localHost))
 		{
-			//默认支持10.1、172.16-31和192.168.网络的IP服务器,先查找己知的内网网段，
-			//根据内部的优先级别确认192.168.x.x->172.16.x.x->10.x.x.x，如均未找到，再根据配置配置文件配置新网段地址
 			if(extension_loaded('swoole'))
 			{
 				$ipList = swoole_get_local_ip();
