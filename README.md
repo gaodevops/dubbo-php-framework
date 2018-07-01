@@ -10,4 +10,5 @@ dubbo-php-framework是一个用于php语言的RPC通讯框架，与dubbo在协�
 * provider_admin部署在所有provider机器上，用于控制该机器上所有php provider的生命周期.
 
 
-[Quick start](https://github.com/lexin-fintech/dubbo-php-framework/wiki/Quick-Start)
+
+dubbo-php-framework已经捐献给dubbo社区，项目新git地址为[跳转](https://github.com/dubbo/dubbo-php-framework)
